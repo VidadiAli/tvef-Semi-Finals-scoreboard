@@ -8,13 +8,17 @@ function App() {
   const [allCountries, setAllCountries] = useState([]);
   const [finalists, setFinalists] = useState([]);
   const [videoPlay, setVideoPlay] = useState('')
+  const [loading, setLoading] = useState('');
 
   const callData = async () => {
+    setLoading('')
     const arrayOfParticipants = (await axios.get('https://api-esc.onrender.com/country')).data;
     setAllCountries(arrayOfParticipants);
 
     const arrayOfFinalists = (await axios.get('https://us-central1-api-tvef-vote.cloudfunctions.net/app/resultEd9')).data;
     setFinalists(arrayOfFinalists.sf2);
+    
+    setLoading('loading-end');
   }
 
   let finalistCount = 0;
@@ -120,6 +124,9 @@ function App() {
             ))}
           </div>
           <section className='back'>
+            <div className={`loading ${loading}`}>
+              <button>Loading ...</button>
+            </div>
             <div className='main'>
               <div className='all'>
                 {
