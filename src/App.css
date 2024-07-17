@@ -1,0 +1,411 @@
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#root>.main-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  z-index: 100;
+  transition: .5s;
+}
+
+#root>.main-back>div {
+  width: 100%;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  transition: 4s;
+  z-index: -1;
+}
+
+#root>.main-back>div:nth-child(1) {
+  animation-name: div-1;
+}
+
+#root>.main-back>div:nth-child(2) {
+  animation-name: div-2;
+}
+
+#root>.main-back>div:nth-child(3) {
+  animation-name: div-3;
+}
+
+#root>.main-back>div:nth-child(4) {
+  animation-name: div-4;
+}
+
+#root>.main-back>div:nth-child(5) {
+  animation-name: div-5;
+}
+
+#root>.main-back>div:nth-child(6) {
+  animation-name: div-6;
+}
+
+#root>.main-back>div:nth-child(7) {
+  animation-name: div-7;
+}
+
+#root>.main-back>div:nth-child(8) {
+  animation-name: div-8;
+}
+
+#root>.main-back>div:nth-child(9) {
+  animation-name: div-9;
+}
+
+#root>.main-back>div:nth-child(10) {
+  animation-name: div-10;
+}
+
+#root>.main-back>div:nth-child(11) {
+  animation-name: div-11;
+}
+
+#root>.main-back>div:nth-child(12) {
+  animation-name: div-12;
+}
+
+#root>.main-back>div:nth-child(13) {
+  animation-name: div-13;
+}
+
+#root>.main-back>div:nth-child(14) {
+  animation-name: div-14;
+}
+
+#root>.main-back>div:nth-child(15) {
+  animation-name: div-15;
+}
+
+#root>.main-back>div:nth-child(16) {
+  animation-name: div-16;
+}
+
+#root>.main-back>div:nth-child(17) {
+  animation-name: div-17;
+}
+
+#root>.main-back>div:nth-child(18) {
+  animation-name: div-18;
+}
+
+
+
+@keyframes div-1 {
+  from {
+    background-color: rgb(92, 25, 174);
+  }
+
+  to {
+    background-color: rgb(30, 3, 62);
+  }
+}
+
+@keyframes div-2 {
+  from {
+    background-color: rgb(99, 39, 172);
+  }
+
+  to {
+    background-color: rgb(49, 15, 92);
+  }
+}
+
+@keyframes div-3 {
+  from {
+    background-color: rgb(134, 54, 231);
+  }
+
+  to {
+    background-color: rgb(83, 15, 166);
+  }
+}
+
+@keyframes div-4 {
+  from {
+    background-color: rgb(103, 96, 243);
+  }
+
+  to {
+    background-color: rgb(28, 6, 154);
+  }
+}
+
+@keyframes div-5 {
+  from {
+    background-color: rgb(15, 50, 127);
+  }
+
+  to {
+    background-color: rgb(60, 8, 124);
+  }
+}
+
+@keyframes div-6 {
+  from {
+    background-color: rgb(25, 82, 174);
+  }
+
+  to {
+    background-color: rgb(33, 12, 151);
+  }
+}
+
+@keyframes div-7 {
+  from {
+    background-color: rgb(30, 43, 178);
+  }
+
+  to {
+    background-color: rgb(11, 11, 213);
+  }
+}
+
+@keyframes div-8 {
+  from {
+    background-color: rgb(22, 86, 143);
+  }
+
+  to {
+    background-color: rgb(21, 55, 168);
+  }
+}
+
+@keyframes div-9 {
+  from {
+    background-color: rgb(36, 69, 215);
+  }
+
+  to {
+    background-color: rgb(28, 13, 145);
+  }
+}
+
+@keyframes div-10 {
+  from {
+    background-color: rgb(25, 47, 174);
+  }
+
+  to {
+    background-color: rgb(25, 22, 114);
+  }
+}
+
+@keyframes div-11 {
+  from {
+    background-color: rgb(92, 25, 174);
+  }
+
+  to {
+    background-color: rgb(46, 19, 143);
+  }
+}
+
+@keyframes div-12 {
+  from {
+    background-color: rgb(44, 23, 113);
+  }
+
+  to {
+    background-color: rgb(34, 9, 118);
+  }
+}
+
+@keyframes div-13 {
+  from {
+    background-color: rgb(92, 25, 174);
+  }
+
+  to {
+    background-color: rgb(36, 18, 84);
+  }
+}
+
+@keyframes div-14 {
+  from {
+    background-color: rgb(41, 11, 77);
+  }
+
+  to {
+    background-color: rgb(61, 30, 155);
+  }
+}
+
+@keyframes div-15 {
+  from {
+    background-color: rgb(92, 25, 174);
+  }
+
+  to {
+    background-color: rgb(47, 11, 92);
+  }
+}
+
+@keyframes div-16 {
+  from {
+    background-color: rgb(80, 20, 153);
+  }
+
+  to {
+    background-color: rgb(30, 3, 62);
+  }
+}
+
+@keyframes div-17 {
+  from {
+    background-color: rgb(75, 37, 121);
+  }
+
+  to {
+    background-color: rgb(49, 16, 89);
+  }
+}
+
+@keyframes div-18 {
+  from {
+    background-color: rgb(92, 25, 174);
+  }
+
+  to {
+    background-color: rgb(30, 3, 62);
+  }
+}
+
+
+.back {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 10000;
+}
+
+.back>.button,
+.btn-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.back>.btn-video {
+  right: 100px;
+}
+
+.back>video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  opacity: 0;
+}
+
+.back>.main {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.back>.main>.all {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  column-gap: 25px;
+}
+
+.back>.main>.all>div {
+  display: flex;
+  background-image: linear-gradient(to right, rgb(30, 3, 62), rgb(22, 86, 143));
+  padding: 5px;
+  align-items: center;
+  gap: 5px;
+}
+
+.back>.main>.all>div>img {
+  width: 65px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.back>.main>.all>div>span {
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.back>.main>.finalist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 40%;
+}
+
+.back>.main>.finalist>div {
+  width: 80%;
+  background-color: rgb(30, 3, 62);
+  color: white;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 5px;
+}
+
+.back>.main>.finalist>div>img {
+  width: 62px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.back>.main>.finalist>div>span {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.finalist-dizayn {
+  background-color: transparent !important;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.finalist-dizayn::after {
+  content: '';
+  background-color: yellow;
+  height: 100%;
+  animation-name: after-dizayn;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-duration: .2s;
+}
+
+
+@keyframes after-dizayn {
+  from {
+    width: 0%;
+    opacity: 0;
+  }
+
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
