@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import axios from 'axios';
 import video from './v.ogg'
+import { resultOfSf } from './JsFiles/MainJsFiles';
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
     const arrayOfParticipants = (await axios.get('https://api-esc.onrender.com/country')).data;
     setAllCountries(arrayOfParticipants);
 
-    const arrayOfFinalists = (await axios.get('https://us-central1-api-tvef-vote.cloudfunctions.net/app/resultEd9')).data;
+    //const arrayOfFinalists = (await axios.get('https://us-central1-api-tvef-vote.cloudfunctions.net/app/resultEd9')).data;
+    const arrayOfFinalists = resultOfSf;
     setFinalists(arrayOfFinalists.sf2);
     
     setLoading('loading-end');
